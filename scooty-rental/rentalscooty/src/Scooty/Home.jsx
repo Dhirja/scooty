@@ -19,22 +19,23 @@ export const Home = () => {
           console.log(ele);
           return (
             <>
-            <Link to={`dis/${ele.id}`}>
+            
               <div className="inner_box">
                 <h3>Name: {ele.name}</h3>
                <img style={{width:"100%"}} src={ele.image} alt="" />
                 <p>Capacity: {ele.capacity}</p>
                 <p>rent: {ele.rentPerHour}</p>
-                
+                <Link to={`dis/${ele.id}`}>
                 <button style={{width:"50%",backgroundColor:"#b5bfbf",borderRadius:"10px",height:"40px", color:"#fe0000"}}
                   onClick={() => navigate(`/dis/${id}`)}
                     >
                     Book Now
                     </button>
+                    </Link>
                 
                 
               </div>
-              </Link>
+            
             </>
           );
         })}
