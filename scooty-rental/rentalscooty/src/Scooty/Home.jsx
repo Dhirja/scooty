@@ -24,14 +24,14 @@ export const Home = () => {
                 <h3>Name: {ele.name}</h3>
                <img style={{width:"100%"}} src={ele.image} alt="" />
                 <p>Capacity: {ele.capacity}</p>
-                <p>Medicine Name: {ele.rentPerHour}</p>
-                <Link  to={``}>
+                <p>rent: {ele.rentPerHour}</p>
+                
                 <button style={{width:"50%",backgroundColor:"#b5bfbf",borderRadius:"10px",height:"40px", color:"#fe0000"}}
-               onClick={() => navigate(`/dis/${id}`)}
+                  onClick={() => navigate(`/dis/${id}`)}
                     >
                     Book Now
                     </button>
-                </Link>
+                
                 
               </div>
               </Link>

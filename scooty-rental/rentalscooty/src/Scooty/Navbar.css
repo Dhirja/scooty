@@ -6,14 +6,14 @@
 }
 .inner_div{
     /* border: 1px solid red; */
-    height: 3rem;
-    width: 80%;
+    height: 70px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ecf5f5;
-    color: white;font-weight: 500;
+    background-color: #48cece;
+    color: rgba(240, 18, 18, 0.658);font-weight: 500;
     text-shadow:  0 0 5px #fdd44d;
     font-size: 22px;
 }
