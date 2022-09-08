@@ -10,7 +10,7 @@
     width: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #48cece;
     color: rgba(240, 18, 18, 0.658);font-weight: 500;
