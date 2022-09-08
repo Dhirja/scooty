@@ -1,10 +1,16 @@
 import React from 'react'
 import { Container, theme,Box,Text,VStack,Input,Button,Link } from '@chakra-ui/react'
+import { Navbar } from './Navbar'
 
 
 
 export const Login = () => {
+
+
   return (
+    <>
+    <Navbar />
+    
     <Container >
     <Box borderWidth="1px" borderRadius="lg" p={4} mt={10}>
         <Text fontSize="2xl" align="center">Create Acount</Text>
@@ -22,5 +28,7 @@ export const Login = () => {
         </form>
     </Box>
 </Container>
+</>
   )
+  
 }
